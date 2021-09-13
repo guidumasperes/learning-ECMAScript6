@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>ECMAScript</title>
+    </head>
+    <body>
+        <h1>Template literals</h1>
+        <script type="text/javascript">
+
+            function createEmail(firstName, price) {
+                let shipping = 5.95;
+                console.log(`Hi ${firstName}! Thanks!
+                    Total: $${price}
+                    Shipping: $${shipping}
+                    Grand Total: $${price + shipping}
+                `);
+            }
+            createEmail("Panna", 300);
+            
+        </script>
+    </body>
+</html>
